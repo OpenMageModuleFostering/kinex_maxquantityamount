@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>kinex_maxquantityamount</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Maximum Quantity Amount Extension For  Products</summary>
+    <description>This extension allow the users to set the maximum  quantity for individual products. Order will not place after maximum quantity limit exceed.This allow the users to set custom message for individual products.</description>
+    <notes>This is first version 1.0.0</notes>
+    <authors><author><name>Sourav </name><user>SouravKinex</user><email>sourav@kinexmedia.com</email></author></authors>
+    <date>2015-10-01</date>
+    <time>06:16:51</time>
+    <contents><target name="magelocal"><dir name="Kinex"><dir name="MaxQuantityAmount"><dir name="Block"><file name="TestBlock.php" hash="e6e9d10a6f6ac8bdc64d725f8f459847"/></dir><dir name="Helper"><file name="Data.php" hash="6ae4ad23fc024b1efb1e2058513d8dec"/></dir><dir name="Model"><file name="Observer.php" hash="ef21dbabb78bcb6c85e5bc1def9d8956"/></dir><dir name="controllers"><file name="IndexController.php" hash="73c2ac4b366059812fad66008f209d01"/></dir><dir name="etc"><file name="adminhtml.xml" hash="63749b0153706e5936ef7055a51c71f7"/><file name="config.xml" hash="49d2ecfd81878006099524af2da95b6c"/><file name="system.xml" hash="bbfa2511a43e26fc349d2b70861edc4e"/></dir><dir name="sql"><dir name="kinex_maxquantityamount_setup"><file name="mysql4-install-1.0.0.php" hash="7ddb4457fbd19153a2f5cf4dbf5ab733"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Kinex_MaxQuantityAmount.xml" hash="c4f076e6c6a068b9d28dd0567f09b084"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
