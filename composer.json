@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/kinex_maxquantityamount",
+    "name": "OpenMageModuleFostering\/kinex_maxquantityamount",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Maximum Quantity Amount Extension For  Products",
     "authors": [
-    {
-        "name": "Sourav ",
-        "email": "sourav@kinexmedia.com"
-    }
-],
+        {
+            "name": "Sourav ",
+            "email": "sourav@kinexmedia.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
